@@ -15,6 +15,7 @@ export default class Count extends Component {
      * @returns {void}
      */
     render() {
+        console.log('rendering count ')
         let suffix = store.state.items.length !== 1 ? 's' : '';
         let emoji = store.state.items.length > 0 ? '🙌' : '😢';
 

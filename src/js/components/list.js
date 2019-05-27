@@ -19,6 +19,8 @@ export default class List extends Component {
     render() {
         let self = this;
 
+        console.log('rendering list')
+
         // If there are no items to show, render a little status instead
         if(store.state.items.length === 0) {
             self.element.innerHTML = `<p class="no-items">You've done nothing yet 😢</p>`;

@@ -15,6 +15,7 @@ export default class Status extends Component {
      * @returns {void}
      */
     render() {
+        console.log('rendering status')
         let self = this;
         let suffix = store.state.items.length !== 1 ? 's' : '';
         
